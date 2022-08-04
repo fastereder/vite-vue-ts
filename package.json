@@ -1,8 +1,16 @@
 {
   "name": "vite-vue-ts",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
+  "license": "SEE LICENSE IN LICENSE.txt",
+  "author:": {
+    "name": "Felix Schlenkrich"
+  },
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fastereder/vite-vue-ts"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
