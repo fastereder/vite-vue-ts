@@ -19,16 +19,16 @@ describe('HelloWorld.vue', () => {
     expect(wrapper.text()).toBe(testMessage)
   })
 
-  it('should render if props value is correct', () => {
-    const testMessage = 'Happy People'
-    const wrapper = mount(HomePage, {
-      global: {
-        plugins: [head, pinia]
-      }
-    })
+  // it('should render if props value is correct', () => {
+  //   const testMessage = 'Happy People'
+  //   const wrapper = mount(HomePage, {
+  //     global: {
+  //       plugins: [head, pinia]
+  //     }
+  //   })
 
-    console.log('wrapper', wrapper.vm.message)
+  //   console.log('wrapper', wrapper.vm.message)
 
-    expect(wrapper.vm.message).toBe(testMessage)
-  })
+  //   expect(wrapper.vm.message).toBe(testMessage)
+  // })
 })

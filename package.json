@@ -23,7 +23,8 @@
     "lint:style:check": "stylelint ./src/**/*.{css,vue}",
     "prepare": "husky install",
     "test": "vitest",
-    "coverage": "vitest run --coverage"
+    "coverage": "vitest run --coverage",
+    "postinstall": "husky install"
   },
   "dependencies": {
     "pinia": "^2.0.17",
