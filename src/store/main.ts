@@ -7,6 +7,6 @@ export type MainState = {
 export const useMainStore = defineStore('main', {
   state: () => ({ message: 'Hello Pinia' }),
   getters: {
-    message: (state) => state.message
+    getMessage: (state) => state.message
   }
 })

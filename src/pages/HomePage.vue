@@ -8,6 +8,7 @@ import { useHead } from '@vueuse/head'
 
 const { message } = useMainStore()
 
+defineExpose({ message })
 useHead({
   title: 'Home'
 })
